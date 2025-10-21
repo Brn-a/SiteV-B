@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .destinos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .destinos a {
+    text-decoration: none;
+    background-color: #cc0000;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .destinos a:hover {
+    background-color: #005fa3;
+  }
+
+  a.voltar {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+ 
+

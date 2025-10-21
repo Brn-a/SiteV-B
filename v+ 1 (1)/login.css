@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+fieldset {
+    text-align: left;
+    background-color: #e0f7fa;
+    width: 60vh;
+    border-radius: 20px;
+    border: none;
+    padding: 4vh;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+ 
+#border_form {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 2vh;
+    box-sizing: border-box;
+}
+ 
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+#form {
+    width: 100%;
+    max-width: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#nome{
+    width: 90%;
+    padding: 1.2vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+
+input[type="password"] {
+    width: 90%;
+    padding: 1.2vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+ 
+input:focus {
+    border-color: #8a2be2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.4);
+}
+ 
+/* Botão */
+input[type="submit"] {
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    padding: 1.2vh 2vh;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #6a1dbf;
+}
+ 
+/* Rótulos */
+label {
+    font-weight: bold;
+    margin-bottom: 0.5vh;
+    display: block;
+}
+
+a.btn-link {
+    display: inline-block;
+    text-align: center;
+    background-color: #8a2be2;
+    color: white;
+    padding: 1.2vh 2vh;
+    border-radius: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 2vh;
+}
+ 
+a.btn-link:hover {
+    background-color: #6a1dbf;
+}

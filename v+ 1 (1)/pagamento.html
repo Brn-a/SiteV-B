@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pacote Paraná - V+</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .pacote-detalhes {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .box h3 {
+      margin-top: 0;
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .voo-info, .hotel-info, .resumo-info {
+      font-size: 0.95em;
+      line-height: 1.6;
+    }
+
+    .box img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .btn-amarelo {
+      background-color: #ffcc00;
+      border: none;
+      color: black;
+      padding: 12px;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #f44336;
+      color: white;
+      padding: 2px 6px;
+      font-size: 0.8em;
+      border-radius: 4px;
+    }
+
+    .verde {
+      background-color: #4caf50;
+    }
+
+    .data {
+      display: inline-block;
+      background-color: #e0e0e0;
+      padding: 3px 8px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 4px 0;
+    }
+
+    .hotel-nome {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .preco-final {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Pacote recomendado</h2>
+
+  <div class="pacote-detalhes">
+
+    <!-- Bloco de Voo -->
+    <div class="box voo-info">
+      <h3>✈️ Voo</h3>
+      <p><strong>Ida:</strong><br>21/04/2025 — 09:35 (GRU) → 10:40 (IGU)<br><small>Total: 1h05min – Voo direto</small></p>
+      <p><strong>Volta:</strong><br>24/04/2025 — 14:50 (IGU) → 15:55 (GRU)<br><small>Total: 1h05min – Voo direto</small></p>
+      <span class="badge">Não Reembolsável</span>
+    </div>
+
+    <!-- Bloco de Hotel -->
+    <div class="box hotel-info">
+      <h3>🏨 Hotel</h3>
+      <img src="hotel-parana.jpg" alt="Hotel em Foz">
+      <p class="hotel-nome">Hotel Cataratas</p>
+      <p>Rua João Negrão</p>
+      <p>Entrada: <span class="data">21/04</span> (segunda-feira)</p>
+      <p>Saída: <span class="data">24/04</span> (quinta-feira)</p>
+      <p><strong>1x Standard Dbl Solteiro</strong></p>
+      <span class="badge verde">Café da Manhã</span>
+    </div>
+
+    <!-- Bloco de Resumo -->
+    <div class="box resumo-info">
+      <h3>🧾 Resumo</h3>
+      <p>Valor por viajante: <strong>R$ 1.295</strong></p>
+      <p>Taxas e impostos: <strong>R$ 197</strong></p>
+      <hr>
+      <p class="preco-final">Valor final (2 viajantes): R$ 2.787</p>
+      <span class="badge">Não Reembolsável</span>
+      <button class="btn-amarelo" onclick="window.location.href='finalizando.html'">Reservar Agora</button>
+      <p><small>Taxas inclusas | Em até 12x</small></p>
+    </div>
+
+  </div>
+
+</body>
+</html>
